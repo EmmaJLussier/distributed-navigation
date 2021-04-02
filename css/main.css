@@ -19,8 +19,8 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
   padding: 1rem;
   background-color: #e2e2e2;
 }
@@ -30,21 +30,25 @@ header nav {
 }
 
 nav ul {
-
+list-style: none;
+display: flex;
+padding: .75em;
 }
 
 nav ul li {
+padding: 1em;
 
 }
 nav a {
-
+color: #0074d9;
+text-decoration:
 }
 
 header h1 {
 
 }
 
-header image {
+header img {
 
 }
 
