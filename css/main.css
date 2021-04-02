@@ -25,33 +25,34 @@ header {
   background-color: #e2e2e2;
 }
 
-header nav {
-
-}
-
 nav ul {
-list-style: none;
-display: flex;
-padding: .75em;
+  list-style: none;
+  display: flex;
+  padding: .75em;
 }
 
 nav ul li {
-padding: 1em;
-
+  padding: 1em;
 }
+
 nav a {
-color: #0074d9;
-text-decoration: none;
+  color: #0074d9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 header h1 {
-
+  margin: .5rem;
 }
 
 header img {
-
+  margin: auto;
 }
 
 header p {
-
+  font-size: 1.125rem;
 }
